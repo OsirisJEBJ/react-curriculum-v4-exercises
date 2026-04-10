@@ -15,7 +15,7 @@ export default function StudentWork() {
         I'm a systems engineer building my path in front end development with a
         practical, hands-on approach.
       </p>
-      <p>Hobbies: {hobbies.join(', ')}</p>
+      <p>Hobbies:</p>
       <ul>
         {hobbies.map((hobby) => (
           <li>{hobby}</li>
