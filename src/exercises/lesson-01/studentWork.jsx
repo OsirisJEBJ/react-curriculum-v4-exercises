@@ -8,7 +8,7 @@ export default function StudentWork() {
   const hobbies = ['running', 'studying', 'spending time with my family'];
   return (
     <div>
-      <h1>About Me</h1>
+      <h1>Week 1 React & Vite</h1>
       <p>Name: {name}</p>
       <p>Age: {age}</p>
       <p>
@@ -17,8 +17,8 @@ export default function StudentWork() {
       </p>
       <p>Hobbies:</p>
       <ul>
-        {hobbies.map((hobby) => (
-          <li>{hobby}</li>
+        {hobbies.map((hobby, index) => (
+          <li key={index}>{hobby}</li>
         ))}
       </ul>
     </div>
