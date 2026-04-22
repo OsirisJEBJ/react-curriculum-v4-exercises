@@ -14,7 +14,6 @@ export default function BugEffectLoop() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    console.log('Efecto corriendo');
     setCount((prev) => prev + 1);
   }, []);
 
