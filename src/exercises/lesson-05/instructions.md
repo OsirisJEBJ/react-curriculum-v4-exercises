@@ -99,6 +99,7 @@ Finally, you'll modify the form submission to work with your controlled inputs a
 - Form resets properly after successful submission
 - Cannot submit invalid forms
 - User-friendly error feedback
+  C
 
 ## Assessment Criteria
 
